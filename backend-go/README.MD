@@ -43,7 +43,7 @@ backend-go/
 
 ---
 
-## ⚙️ Environment Configuration
+## Environment Configuration
 
 Create a `.env` file at the root of `backend-go/`:
 
