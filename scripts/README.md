@@ -1,4 +1,4 @@
-# 🏀 NBA Stats Scraper (Python)
+# NBA Stats Scraper (Python)
 
 This script fetches NBA player data and season averages from the [BallDontLie API](https://www.balldontlie.io) and updates a MongoDB collection (`nba-stats.players`) with that information.
 
@@ -6,7 +6,7 @@ It is intended to be used as a backend data ingestion pipeline, feeding the play
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 scripts/
@@ -18,7 +18,7 @@ scripts/
 
 ---
 
-## 🔧 Prerequisites
+## Prerequisites
 
 - Python 3.9 or newer
 - Access to a MongoDB database (Atlas or local)
@@ -26,7 +26,7 @@ scripts/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo and enter the `scripts/` directory
 
@@ -47,7 +47,7 @@ BALLDONTLIE_API_KEY=your_api_key_here
 MONGO_DB_CONNECTION_STRING=your_mongo_connection_string
 ```
 
-> 🔒 Do **not** commit this file. Make sure `.env` is in `.gitignore`.
+> Do **not** commit this file. Make sure `.env` is in `.gitignore`.
 
 ### 3. Install dependencies
 
@@ -71,7 +71,7 @@ This will:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - Uses `ThreadPoolExecutor` to parallelize player updates
 - Normalizes season averages into JSON format
@@ -79,7 +79,7 @@ This will:
 
 ---
 
-## 🛠️ Customization
+## Customization
 
 You can limit the number of players fetched by editing the call in `fetch_players()`:
 
@@ -91,7 +91,7 @@ You can also change which seasons are fetched, or add logic for playoff stats.
 
 ---
 
-## 🔍 Output Sample
+## Output Sample
 
 ```bash
 Starting player data fetch...
@@ -104,7 +104,7 @@ Inserted new player data for player 237.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 From `requirements.txt`:
 
@@ -116,7 +116,7 @@ From `requirements.txt`:
 
 ---
 
-## ✅ Best Practices
+## Best Practices
 
 - Do not commit your `.env` file
 - Add `balldontlie/` and `__pycache__/` to `.gitignore` if present
@@ -124,6 +124,6 @@ From `requirements.txt`:
 
 ---
 
-## 📚 License
+## License
 
 MIT — feel free to use, fork, and adapt.

@@ -1,4 +1,4 @@
-# 🏀 NBA Stats Microservice
+# NBA Stats Microservice
 
 This repository contains a modular backend system for NBA player statistics. It includes:
 
@@ -7,20 +7,20 @@ This repository contains a modular backend system for NBA player statistics. It 
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project is the backend foundation for a future **multi-sport analytics platform**. It is designed to be split into scalable microservices with clean data ingestion and querying layers.
 
 ---
 
-## 📁 Structure
+## Structure
 
 - [`/backend-go`](./backend-go): Lightweight Go HTTP API for consuming NBA data
 - [`/scripts`](./scripts): Python scripts for scraping and populating the MongoDB database
 
 ---
 
-## 🚀 Usage
+## Usage
 
 For setup, usage, and endpoint/API details, refer to the `README.md` inside each subdirectory:
 
