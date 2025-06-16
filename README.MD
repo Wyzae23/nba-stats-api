@@ -25,4 +25,4 @@ This project is the backend foundation for a future **multi-sport analytics plat
 For setup, usage, and endpoint/API details, refer to the `README.md` inside each subdirectory:
 
 - 📘 [`backend-go/README.md`](./backend-go/README.MD)
-- 📘 [`scripts/README.md`](./scripts/README.MD)
+- 📘 [`scripts/README.md`](./scripts/README.md)
