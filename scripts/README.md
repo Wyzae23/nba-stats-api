@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Scraper
+## Running the Scraper
 
 ```bash
 python updateDB.py

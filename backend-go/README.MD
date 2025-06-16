@@ -98,7 +98,7 @@ services:
 
 ---
 
-### ▶️ Start the API
+### Start the API
 
 ```bash
 docker-compose up --build
