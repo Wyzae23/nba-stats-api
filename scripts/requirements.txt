@@ -1,0 +1,5 @@
+balldontlie
+python-dotenv
+pymongo 
+dnspython
+certifi

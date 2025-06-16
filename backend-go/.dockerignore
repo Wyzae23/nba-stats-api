@@ -1,0 +1,17 @@
+app
+*.exe
+*.out
+.env
+.git
+.gitignore
+.DS_Store
+*.swp
+*.tmp
+*.log
+.vscode
+.idea
+coverage.*
+*.test
+*.prof
+vendor/
+node_modules/
